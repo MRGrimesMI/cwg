@@ -1,0 +1,115 @@
+body {
+  background-color: lightgray;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+ul {
+	line-height: 150%;
+	margin: 0 ;
+	padding-left: 20px;
+}
+
+.Bold {
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Olde English Regular";
+	src: url('Olde English Regular.ttf');
+}
+.HeaderGrid {
+  display: grid;
+  grid-template-columns: 350px 1fr 250px;
+  grid-template-rows: 70px;
+  color:gold;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  column-width: 0;
+}
+.HeaderLeft {
+	grid-column: 1/1;
+	padding-left: 15px;
+}
+.HeaderCenter {
+	grid-column: 2/2;
+	align-self: end;
+	margin: 0;
+	padding-bottom: 5px;
+}
+.HeaderRight {
+	grid-column: 3/3;
+	justify-self: right;
+	align-self: end;
+	padding: 5px;
+}
+.HeaderData {
+	color: aqua;
+	padding-left: 5px;
+}
+#Closer {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	align-self: start; /* added */
+	font-size: large;
+	font-weight: bolder;
+	cursor:pointer;
+	visibility: hidden;
+}
+
+.LogoGroup {
+	font-family: "Olde English Regular";
+	font-style: italic;
+	margin: 0 0 0 0;
+}
+.LeaderText {
+  font-size: large;
+  margin: 0 0 5px 60px;
+      /* margin: 2 0 -2 15;
+      z-index: 1; */
+}
+.LogoText {
+	font-size: 50; 
+	margin-bottom: 0;
+	margin-top: -25px;
+}
+.CopyrightText {
+	font-size: small;
+	color: silver;
+	margin-top: -10px;
+	margin-bottom: 0;
+	padding-left: 140px;
+}
+
+.FlexRow {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.FlexColumn {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.ClickUnderline {
+	cursor: pointer; 
+	text-decoration: underline;
+  }
+.ListTitle {
+	font-weight: bold;
+	font-size: large;
+	margin: 0;
+}
+.ListLevel0 {
+	font-size: medium;
+}
+.ListLevel1 {
+	font-size: smaller;
+}
+.ListLevel2 {
+	font-size: smaller;
+}
+.DistrictDetails {
+	font-size: smaller;
+}

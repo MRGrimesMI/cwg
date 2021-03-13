@@ -1,0 +1,209 @@
+Things to Do:
+
+>>>>>>>>>>  GAME PLAY
+-- nations:
+    -- Add Emmisaries (like Spies);
+    -- add trading / trading routes, seas, etc
+       -- free within nation (if connected)
+       -- Seas are common trade routes
+       -- Allow trades with other nations 
+       Require Communities of size X for International trade
+            Trade Routes link communities
+       add ability to trade routes
+    -- add prosperity
+        affects birthrate, deathrate, migration, coups
+    -- allow migration if conomy is poor 
+        (even from nonplayer Distrcts?
+    -- incorporate birth and death rates
+    -- allow labor rates (supply/demand)    
+
+-- How Take Over an District 
+    (can affect prosperity if forced(?))
+    affinity by Trading Partner  (formalize Trading Partner (standing trades)
+    district can vote to move
+    
+================================================================================
+>>>>>>>>>>>> Class/Tutorials/ Development:
+    -- Review Authentaction (NodeJS course)
+    -- Add Cookies ???
+    -- push to Git (set up repository?)
+--------------------------------------------------------------------------------
+
+?? Allow rescind of adjustments without penalty
+
+XX Setup so can use same math for districts in both client and server
+   common (all or some) of libraryecon.js
+XX Add a Seasonal Update (convert adjustments)
+XX in server: set adjustments to undefined if adjustments == 0  
+
+>> remove adjustments when no adjustments;
+    >> occurs when rescind a Remove Farm
+>> Dont Show any econ item with 0 
+>> Add a Remove All adjustments Menu Option (insert breakline) 
+
+>> Add currency?
+   - can handle as a "good" without a facility?  
+   - or change goods oriented parms to facility oriented parms;
+
+>> add Villages (like a Facility but produces what?)
+        Somehow factors into districtHappiness????
+    >> Coastal Villages Allow Trade Routes by Sea
+
+
+
+-- Allow Random Region Assignments at Game Create
+-- Allow Nations to change Names
+
+-- Change Close "X" to "<=" new symbol, new place on header?
+     on hover: diplace message?
+
+-- streamline createspan (attributes via optional class)
+    create textvalue class (with left padding, color)
+    create textlabel class (color);
+    create headervalue class (padding, color)
+    create headerlabel class (color)
+    classes for header (specific to id);
+    change default body font (css, size);
+    create bannersetup routine (clear some);
+
+-- OneDay
+    -- different background Colors for Splash, GameMgr, 
+            nationMgr, gameCreator
+    -- Lear about Authentication / Player Registration, 
+    -- Cleanup and organize parameters
+    -- use common classes between client, server (e.g. econClass)
+    -- better(?) Convert JSON to Class;
+        on load from File and from AJAX comm
+        include sub-classes?
+        not have to define each method/field;
+    -- get rid or playerRoutes (save for authorization);
+    -- Show Game Staus / Nation seasonStatus (Right Click?) (GameMgr)    
+    -- add Better Error Checking (on Gets and file read/save);
+    -- How allow working offline? (save Local? files, cookies, ??)
+
+-- Restructure Game, Nation(?), World(?) services to CRUD terminology
+        (Create, Read, Update, Delete)
+
+
+========== COMPLETED ============        
+XX Generalize LoadPage(htmnl, JSONdata, DataReceived)
+XX Think about organizing splitting base.js
+XX Dynamically use Create Game
+
+XX Add Close Capability (dynamic action)
+
+XX GameMgr: Add Accept/Reject Invitation
+XX Add Click on Game -> Nation
+XX Cleanup Fix SetCloseAction
+
+XX   create a listCreator
+XX  Show <none> if no items in list
+XX Add units to EconClass
+XX Create AddEventRoutine that does not accumulate Events;
+
+XX add modified/save button logic from Commonwealth0
+
+XX Respond with new Nation info on Save;  Refresh wiht new Nation Info;
+
+XX Use Constants for seasonStatus (client and Server)
+XX Use a common jResponse Class for all Responses;
+    :  getgames, getnation, nationupdate, accept, reject, create
+    XX for status = false:  data = error message to be displayed
+    XX if return status == false:  alert data as Error Message;
+    XX still return false or null (?)
+    XX Provide a Standard (temporary) Error across all services?
+
+XX All responses are {status, data}
+XX Add convert to small letters for files
+
+XX Summary:
+    XX Population
+        pop consumption
+    XX Facilities
+        Production
+        consumption
+    XX adjustments
+        consumption
+    XX Net Commodities
+    XX Net Resources (need consumption Rate)
+
+ XX use 2 significant digits in econString 
+XX Change District terminology to Districts
+XX Add District Report (right Click)
+   XX DistrictEcon:
+        - correct Math for Goods Available,
+        Population
+            goodConsumed
+        Goods Available
+        Facilities
+            production
+            goodsConsumed
+            adjustments
+                goodConsumed
+        Resources Available;
+        (i.e. show goods consumed for each element
+          but do not itemize ResourcesConsumed)
+
+   XX create a entity display routine to a List
+   XX use entity display routine NationReport
+   XX include DistrictCount in Nation Report   
+   >> Handle Facility deconstruction 
+        (no facility, no production, no resources, yes consume Goods)
+   >> Create a Parmlist capabiltiy 
+XX Need to convert world into a class? 
+XX Cleanup Routes and services (Create a Nation Route)
+XX Move sendInvitations to PlayerServices 
+XX Fix Econ Summary in nationMgr  
+
+XX move all gameCreate including world, parm to gamecreation
+-- Need classes anywhere??? 
+        generally needs no methods;
+        any needed methods needed could be:
+            gameServices.save(gameobject); 
+            gameServices.load(gameName); 
+        -or-functions -or-
+        could assign a function to class: Object.assign()
+    X  WorldClass
+    X GameClass
+    X NationInfoClass
+    - PlayerClass - wait till understand Athorization 
+    - ItemClass(?) only in Client; How initialize?
+    X EconClass (Update with Adding to Districts)
+    X ResponseClass (OK, server only - but use for All Responses)
+    XX Add Economy to Districts (expenditures, )
+XX How to Display accounting (season expenditures, Net, )
+xx change econClasses to econServices or use libraryEcon
+
+XX add and display seasonStatus to NationInfo  (GameMgr)
+
+XX Confirm that nation is owner of district before updating
+XX Confirm that updates are for the the same season as Game's season
+XX change all querySelector to library: getElement;
+
+XX add commerce, costs,
+   X Update Costs on item change or on Send/Receive?
+XX change so adding add acres, not farms
+   X combine resource and goods into same parm?
+   X Production = function acres
+   X cost = function of acres
+   >> Add workers workers = function of ?? 
+
+   X Need way to change addSeaon Facility
+   X Need a way to detroy Facilities
+   >> Change all commodities and commodity to Goods and Good/g
+   >> Facilities need to consume Resources 
+>> Facilities 
+      - limit production if no Resource?
+      : Consumes: reduce Resources per Seasonal
+      : Uses: does not reduce, but limit 
+
+-- Districts
+   XX add Resources (at Init)
+   XX add Population (at Init)
+   XX add Commodities (at Init) - 
+   XX add Owner (initialize)
+   XX add ownedByMe()
+   -- add communities (towns, villages, cities
+   XXadd facilities (mills, farms, mines, banks); (banks: other districts can borrow)
+   -- add Propserity (Placeholder) 
+

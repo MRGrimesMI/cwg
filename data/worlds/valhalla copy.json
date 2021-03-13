@@ -1,0 +1,2162 @@
+{
+    "Name": "Valhalla",
+    "Version": "2020.03.15",
+    "Regions": [
+        {
+            "Name": "Drulic",
+            "Possessive":"Drulican",
+            "ID": "0",
+            "TextColor":"darkblue"
+        },
+        {
+            "Name": "Malacandra",
+            "Possessive": "Malacandrian",
+            "ID": "1",
+            "TextColor":"forestgreen"
+        },
+        {
+            "Name": "Olympia",
+            "Possessive":"Olympian",
+            "ID": "2",
+            "TextColor":"darkred"
+        },
+        {
+            "Name": "Empyria",
+            "Possessive":"Empyrian",
+            "ID": "3",
+            "TextColor":"darkviolet"
+        },
+        {
+            "Name": "Brisinger",
+            "Possessive":"Brisingian",
+            "ID": "4",
+            "TextColor":"saddlebrown"
+        },
+        {
+            "Name": "Mythiq",
+            "Possessive":"Mythiqan",
+            "ID": "5",
+            "TextColor": "darkorange"
+        },
+        {
+            "Name": "Dominancia",
+            "Possessive":"Dominancian",
+            "ID": "6",
+            "TextColor":"darkslategray"
+        }
+    ],
+    "Areas": [
+        {
+            "Name": "Deep Brine",
+            "ID": "0",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "10",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "27",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "1",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "24",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "9",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Low Stay",
+            "ID": "1",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "0",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "24",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "26",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "2",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Northal Sea",
+            "ID": "2",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "26",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "1",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "29",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "3",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Deep Anchors",
+            "ID": "3",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "2",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "29",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "28",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "30",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "25",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "6",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "4",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Old Stew",
+            "ID": "4",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "3",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "25",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "6",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "5",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "32",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Spire Bay",
+            "ID": "5",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "39",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "32",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "6",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "4",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Kelp Crossing",
+            "ID": "6",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "3",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "25",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "30",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "4",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "5",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Tower Firth",
+            "ID": "7",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "8",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "29",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "38",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "33",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "40",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "34",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Green Sea",
+            "ID": "8",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "9",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "36",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "26",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "41",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "2",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "16",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "44",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "38",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "29",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "7",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Foam Gap",
+            "ID": "9",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "0",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "10",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "27",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "35",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "36",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "26",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Shallow Brine",
+            "ID": "10",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "0",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "11",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "43",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "12",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "35",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "42",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "9",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Western Blue",
+            "ID": "11",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "10",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "14",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "43",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "60",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "15",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "12",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "57",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Central Blue",
+            "ID": "12",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "43",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "11",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "10",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "57",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "42",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "13",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "49",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "53",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Sandy Blue",
+            "ID": "13",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "12",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "57",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "53",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "56",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Southern Blue",
+            "ID": "14",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "11",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "60",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "15",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "64",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Dead Cove",
+            "ID": "15",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "11",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "14",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "60",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "64",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "The Narrows",
+            "ID": "16",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "41",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "54",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "44",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "52",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Gait Keeper",
+            "ID": "17",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "54",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "56",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "58",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "16",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "52",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "18",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "23",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "61",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "55",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "19",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Southern Gulf",
+            "ID": "18",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "58",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "65",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "66",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "61",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Gray Sea",
+            "ID": "19",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "17",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "61",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "55",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "63",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "22",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "20",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "59",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Black Sea",
+            "ID": "20",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "63",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "69",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "19",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "59",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "21",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Upper Black Sea",
+            "ID": "21",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "51",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "22",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "48",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "59",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "37",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "20",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Dark Lair",
+            "ID": "22",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "23",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "55",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "19",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "51",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "21",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "59",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Standing Wave",
+            "ID": "23",
+            "Region": "Sea",
+            "IsLand": false,
+            "Connections": [
+                {
+                    "ID": "52",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "55",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "45",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "22",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "46",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "51",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Aroth",
+            "ID": "24",
+            "Region": "0",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "0",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "1",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "27",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "26",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Pict Island",
+            "ID": "25",
+            "Region": "?",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "3",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "6",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "4",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Rael",
+            "ID": "26",
+            "Region": "0",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "24",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "27",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "9",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "1",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "2",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Cerran",
+            "ID": "27",
+            "Region": "0",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "0",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "24",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "9",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "26",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Avalach",
+            "ID": "28",
+            "Region": "3",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "29",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "33",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "3",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "34",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "30",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Myrddin",
+            "ID": "29",
+            "Region": "3",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "2",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "7",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "33",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "3",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "28",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Pictland",
+            "ID": "30",
+            "Region": "3",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "28",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "34",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "3",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "6",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Legionis",
+            "ID": "31",
+            "Region": "3",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "34",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "40",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "45",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "46",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "30",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "39",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "6",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "5",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "4",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Kirtan",
+            "ID": "32",
+            "Region": "4",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "5",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "39",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "37",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "4",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Celydon",
+            "ID": "33",
+            "Region": "3",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "29",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "7",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "28",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "34",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Tintag",
+            "ID": "34",
+            "Region": "3",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "33",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "7",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "28",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "40",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "30",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Orray",
+            "ID": "35",
+            "Region": "0",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "10",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "42",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "9",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "36",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Luret",
+            "ID": "36",
+            "Region": "0",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "35",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "42",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "9",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "49",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "50",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "41",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Hadarac",
+            "ID": "37",
+            "Region": "4",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "32",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "39",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "48",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "21",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Argos",
+            "ID": "38",
+            "Region": "2",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "8",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "44",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "7",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "47",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "40",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Aberon",
+            "ID": "39",
+            "Region": "4",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "31",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "5",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "46",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "51",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "48",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "32",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "37",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Pyrgos",
+            "ID": "40",
+            "Region": "2",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "7",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "38",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "47",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "45",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "34",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Eldil",
+            "ID": "41",
+            "Region": "1",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "36",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "50",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "8",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "16",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "54",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Bithet",
+            "ID": "42",
+            "Region": "0",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "10",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "35",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "12",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "36",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "49",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Blue Isle",
+            "ID": "43",
+            "Region": "?",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "10",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "11",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "12",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Colosse",
+            "ID": "44",
+            "Region": "2",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "8",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "16",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "38",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "52",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "47",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Neapolis",
+            "ID": "45",
+            "Region": "2",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "47",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "40",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "52",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "23",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "46",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Teirm",
+            "ID": "46",
+            "Region": "4",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "45",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "23",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "31",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "51",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "39",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Ithica",
+            "ID": "47",
+            "Region": "2",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "44",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "38",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "52",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "40",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "45",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Therin",
+            "ID": "48",
+            "Region": "4",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "39",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "51",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "21",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "37",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Arbul",
+            "ID": "49",
+            "Region": "1",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "42",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "12",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "53",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "36",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "50",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Hnakra",
+            "ID": "50",
+            "Region": "1",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "36",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "49",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "41",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "53",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "54",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Saphira",
+            "ID": "51",
+            "Region": "4",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "46",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "23",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "22",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "39",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "48",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "21",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Edessa",
+            "ID": "52",
+            "Region": "2",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "16",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "44",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "47",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "23",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "45",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Hnau",
+            "ID": "53",
+            "Region": "1",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "12",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "49",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "13",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "50",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "56",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "54",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Hru",
+            "ID": "54",
+            "Region": "1",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "53",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "56",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "50",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "41",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "16",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "58",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Galleoch",
+            "ID": "55",
+            "Region": "?",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "23",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "19",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "22",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Harandra",
+            "ID": "56",
+            "Region": "1",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "13",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "57",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "62",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "53",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "54",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "58",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Avalon",
+            "ID": "57",
+            "Region": "5",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "11",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "60",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "12",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "13",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "62",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "56",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Tierga",
+            "ID": "58",
+            "Region": "5",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "56",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "62",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "65",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "54",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "18",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Black Island",
+            "ID": "59",
+            "Region": "?",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "19",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "20",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "22",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "21",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Asgard",
+            "ID": "60",
+            "Region": "5",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "11",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "57",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "14",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "15",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "64",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "62",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Luthadel",
+            "ID": "61",
+            "Region": "6",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "18",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "66",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "17",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "68",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "69",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "19",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "63",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Nysa",
+            "ID": "62",
+            "Region": "5",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "57",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "60",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "64",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "67",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "56",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "58",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "65",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Hathsin",
+            "ID": "63",
+            "Region": "6",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "61",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "19",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "69",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "20",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Atlantis",
+            "ID": "64",
+            "Region": "5",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "14",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "15",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "60",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "62",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "67",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Urteau",
+            "ID": "65",
+            "Region": "6",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "62",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "67",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "58",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "18",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "68",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "66",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Morac",
+            "ID": "66",
+            "Region": "6",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "18",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "65",
+                    "IsCoastal": true
+                },
+                {
+                    "ID": "68",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "61",
+                    "IsCoastal": true
+                }
+            ]
+        },
+        {
+            "Name": "Patiti",
+            "ID": "67",
+            "Region": "5",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "64",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "62",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "65",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "68",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Ascension",
+            "ID": "68",
+            "Region": "6",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "65",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "67",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "66",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "61",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "69",
+                    "IsCoastal": false
+                }
+            ]
+        },
+        {
+            "Name": "Tyrian",
+            "ID": "69",
+            "Region": "6",
+            "IsLand": true,
+            "Connections": [
+                {
+                    "ID": "61",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "68",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "63",
+                    "IsCoastal": false
+                },
+                {
+                    "ID": "20",
+                    "IsCoastal": false
+                }
+            ]
+        }
+    ]
+}

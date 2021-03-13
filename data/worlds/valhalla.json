@@ -1,0 +1,2162 @@
+{
+    "name": "Valhalla",
+    "version": "2021.01.30",
+    "regions": [
+        {
+            "name": "Drulic",
+            "possessive":"Drulican",
+            "id": "0",
+            "textColor":"darkblue"
+        },
+        {
+            "name": "Malacandra",
+            "possessive": "Malacandrian",
+            "id": "1",
+            "textColor":"forestgreen"
+        },
+        {
+            "name": "Olympia",
+            "possessive":"Olympian",
+            "id": "2",
+            "textColor":"darkred"
+        },
+        {
+            "name": "Empyria",
+            "possessive":"Empyrian",
+            "id": "3",
+            "textColor":"darkviolet"
+        },
+        {
+            "name": "Brisinger",
+            "possessive":"Brisingian",
+            "id": "4",
+            "textColor":"saddlebrown"
+        },
+        {
+            "name": "Mythiq",
+            "possessive":"Mythiqan",
+            "id": "5",
+            "textColor": "darkorange"
+        },
+        {
+            "name": "Dominancia",
+            "possessive":"Dominancian",
+            "id": "6",
+            "textColor":"darkslategray"
+        }
+    ],
+    "districts": [
+        {
+            "name": "Deep Brine",
+            "id": "0",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "10",
+                    "isCoastal": false
+                },
+                {
+                    "id": "27",
+                    "isCoastal": false
+                },
+                {
+                    "id": "1",
+                    "isCoastal": false
+                },
+                {
+                    "id": "24",
+                    "isCoastal": false
+                },
+                {
+                    "id": "9",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Low Stay",
+            "id": "1",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "0",
+                    "isCoastal": false
+                },
+                {
+                    "id": "24",
+                    "isCoastal": false
+                },
+                {
+                    "id": "26",
+                    "isCoastal": false
+                },
+                {
+                    "id": "2",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Northal Sea",
+            "id": "2",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "26",
+                    "isCoastal": false
+                },
+                {
+                    "id": "8",
+                    "isCoastal": false
+                },
+                {
+                    "id": "1",
+                    "isCoastal": false
+                },
+                {
+                    "id": "29",
+                    "isCoastal": false
+                },
+                {
+                    "id": "3",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Deep Anchors",
+            "id": "3",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "2",
+                    "isCoastal": false
+                },
+                {
+                    "id": "29",
+                    "isCoastal": false
+                },
+                {
+                    "id": "28",
+                    "isCoastal": false
+                },
+                {
+                    "id": "30",
+                    "isCoastal": false
+                },
+                {
+                    "id": "25",
+                    "isCoastal": false
+                },
+                {
+                    "id": "6",
+                    "isCoastal": false
+                },
+                {
+                    "id": "4",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Old Stew",
+            "id": "4",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "3",
+                    "isCoastal": false
+                },
+                {
+                    "id": "25",
+                    "isCoastal": false
+                },
+                {
+                    "id": "6",
+                    "isCoastal": false
+                },
+                {
+                    "id": "31",
+                    "isCoastal": false
+                },
+                {
+                    "id": "5",
+                    "isCoastal": false
+                },
+                {
+                    "id": "32",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Spire Bay",
+            "id": "5",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "31",
+                    "isCoastal": false
+                },
+                {
+                    "id": "39",
+                    "isCoastal": false
+                },
+                {
+                    "id": "32",
+                    "isCoastal": false
+                },
+                {
+                    "id": "6",
+                    "isCoastal": false
+                },
+                {
+                    "id": "4",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Kelp Crossing",
+            "id": "6",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "3",
+                    "isCoastal": false
+                },
+                {
+                    "id": "25",
+                    "isCoastal": false
+                },
+                {
+                    "id": "30",
+                    "isCoastal": false
+                },
+                {
+                    "id": "31",
+                    "isCoastal": false
+                },
+                {
+                    "id": "4",
+                    "isCoastal": false
+                },
+                {
+                    "id": "5",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Tower Firth",
+            "id": "7",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "8",
+                    "isCoastal": false
+                },
+                {
+                    "id": "29",
+                    "isCoastal": false
+                },
+                {
+                    "id": "38",
+                    "isCoastal": false
+                },
+                {
+                    "id": "33",
+                    "isCoastal": false
+                },
+                {
+                    "id": "40",
+                    "isCoastal": false
+                },
+                {
+                    "id": "34",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Green Sea",
+            "id": "8",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "9",
+                    "isCoastal": false
+                },
+                {
+                    "id": "36",
+                    "isCoastal": false
+                },
+                {
+                    "id": "26",
+                    "isCoastal": false
+                },
+                {
+                    "id": "41",
+                    "isCoastal": false
+                },
+                {
+                    "id": "2",
+                    "isCoastal": false
+                },
+                {
+                    "id": "16",
+                    "isCoastal": false
+                },
+                {
+                    "id": "44",
+                    "isCoastal": false
+                },
+                {
+                    "id": "38",
+                    "isCoastal": false
+                },
+                {
+                    "id": "29",
+                    "isCoastal": false
+                },
+                {
+                    "id": "7",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Foam Gap",
+            "id": "9",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "0",
+                    "isCoastal": false
+                },
+                {
+                    "id": "10",
+                    "isCoastal": false
+                },
+                {
+                    "id": "27",
+                    "isCoastal": false
+                },
+                {
+                    "id": "35",
+                    "isCoastal": false
+                },
+                {
+                    "id": "36",
+                    "isCoastal": false
+                },
+                {
+                    "id": "26",
+                    "isCoastal": false
+                },
+                {
+                    "id": "8",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Shallow Brine",
+            "id": "10",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "0",
+                    "isCoastal": false
+                },
+                {
+                    "id": "11",
+                    "isCoastal": false
+                },
+                {
+                    "id": "43",
+                    "isCoastal": false
+                },
+                {
+                    "id": "12",
+                    "isCoastal": false
+                },
+                {
+                    "id": "35",
+                    "isCoastal": false
+                },
+                {
+                    "id": "42",
+                    "isCoastal": false
+                },
+                {
+                    "id": "9",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Western Blue",
+            "id": "11",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "10",
+                    "isCoastal": false
+                },
+                {
+                    "id": "14",
+                    "isCoastal": false
+                },
+                {
+                    "id": "43",
+                    "isCoastal": false
+                },
+                {
+                    "id": "60",
+                    "isCoastal": false
+                },
+                {
+                    "id": "15",
+                    "isCoastal": false
+                },
+                {
+                    "id": "12",
+                    "isCoastal": false
+                },
+                {
+                    "id": "57",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Central Blue",
+            "id": "12",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "43",
+                    "isCoastal": false
+                },
+                {
+                    "id": "11",
+                    "isCoastal": false
+                },
+                {
+                    "id": "10",
+                    "isCoastal": false
+                },
+                {
+                    "id": "57",
+                    "isCoastal": false
+                },
+                {
+                    "id": "42",
+                    "isCoastal": false
+                },
+                {
+                    "id": "13",
+                    "isCoastal": false
+                },
+                {
+                    "id": "49",
+                    "isCoastal": false
+                },
+                {
+                    "id": "53",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Sandy Blue",
+            "id": "13",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "12",
+                    "isCoastal": false
+                },
+                {
+                    "id": "57",
+                    "isCoastal": false
+                },
+                {
+                    "id": "53",
+                    "isCoastal": false
+                },
+                {
+                    "id": "56",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Southern Blue",
+            "id": "14",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "11",
+                    "isCoastal": false
+                },
+                {
+                    "id": "60",
+                    "isCoastal": false
+                },
+                {
+                    "id": "15",
+                    "isCoastal": false
+                },
+                {
+                    "id": "64",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Dead Cove",
+            "id": "15",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "11",
+                    "isCoastal": false
+                },
+                {
+                    "id": "14",
+                    "isCoastal": false
+                },
+                {
+                    "id": "60",
+                    "isCoastal": false
+                },
+                {
+                    "id": "64",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "The Narrows",
+            "id": "16",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "41",
+                    "isCoastal": false
+                },
+                {
+                    "id": "8",
+                    "isCoastal": false
+                },
+                {
+                    "id": "54",
+                    "isCoastal": false
+                },
+                {
+                    "id": "44",
+                    "isCoastal": false
+                },
+                {
+                    "id": "17",
+                    "isCoastal": false
+                },
+                {
+                    "id": "52",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Gait Keeper",
+            "id": "17",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "54",
+                    "isCoastal": false
+                },
+                {
+                    "id": "56",
+                    "isCoastal": false
+                },
+                {
+                    "id": "58",
+                    "isCoastal": false
+                },
+                {
+                    "id": "16",
+                    "isCoastal": false
+                },
+                {
+                    "id": "52",
+                    "isCoastal": false
+                },
+                {
+                    "id": "18",
+                    "isCoastal": false
+                },
+                {
+                    "id": "23",
+                    "isCoastal": false
+                },
+                {
+                    "id": "61",
+                    "isCoastal": false
+                },
+                {
+                    "id": "55",
+                    "isCoastal": false
+                },
+                {
+                    "id": "19",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Southern Gulf",
+            "id": "18",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "58",
+                    "isCoastal": false
+                },
+                {
+                    "id": "65",
+                    "isCoastal": false
+                },
+                {
+                    "id": "66",
+                    "isCoastal": false
+                },
+                {
+                    "id": "17",
+                    "isCoastal": false
+                },
+                {
+                    "id": "61",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Gray Sea",
+            "id": "19",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "17",
+                    "isCoastal": false
+                },
+                {
+                    "id": "61",
+                    "isCoastal": false
+                },
+                {
+                    "id": "55",
+                    "isCoastal": false
+                },
+                {
+                    "id": "63",
+                    "isCoastal": false
+                },
+                {
+                    "id": "22",
+                    "isCoastal": false
+                },
+                {
+                    "id": "20",
+                    "isCoastal": false
+                },
+                {
+                    "id": "59",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Black Sea",
+            "id": "20",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "63",
+                    "isCoastal": false
+                },
+                {
+                    "id": "69",
+                    "isCoastal": false
+                },
+                {
+                    "id": "19",
+                    "isCoastal": false
+                },
+                {
+                    "id": "59",
+                    "isCoastal": false
+                },
+                {
+                    "id": "21",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Upper Black Sea",
+            "id": "21",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "51",
+                    "isCoastal": false
+                },
+                {
+                    "id": "22",
+                    "isCoastal": false
+                },
+                {
+                    "id": "48",
+                    "isCoastal": false
+                },
+                {
+                    "id": "59",
+                    "isCoastal": false
+                },
+                {
+                    "id": "37",
+                    "isCoastal": false
+                },
+                {
+                    "id": "20",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Dark Lair",
+            "id": "22",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "23",
+                    "isCoastal": false
+                },
+                {
+                    "id": "55",
+                    "isCoastal": false
+                },
+                {
+                    "id": "19",
+                    "isCoastal": false
+                },
+                {
+                    "id": "51",
+                    "isCoastal": false
+                },
+                {
+                    "id": "21",
+                    "isCoastal": false
+                },
+                {
+                    "id": "59",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Standing Wave",
+            "id": "23",
+            "region": "Sea",
+            "isLand": false,
+            "connections": [
+                {
+                    "id": "52",
+                    "isCoastal": false
+                },
+                {
+                    "id": "17",
+                    "isCoastal": false
+                },
+                {
+                    "id": "55",
+                    "isCoastal": false
+                },
+                {
+                    "id": "45",
+                    "isCoastal": false
+                },
+                {
+                    "id": "22",
+                    "isCoastal": false
+                },
+                {
+                    "id": "46",
+                    "isCoastal": false
+                },
+                {
+                    "id": "51",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Aroth",
+            "id": "24",
+            "region": "0",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "0",
+                    "isCoastal": true
+                },
+                {
+                    "id": "1",
+                    "isCoastal": true
+                },
+                {
+                    "id": "27",
+                    "isCoastal": true
+                },
+                {
+                    "id": "26",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Pict Island",
+            "id": "25",
+            "region": "?",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "3",
+                    "isCoastal": true
+                },
+                {
+                    "id": "6",
+                    "isCoastal": true
+                },
+                {
+                    "id": "4",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Rael",
+            "id": "26",
+            "region": "0",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "24",
+                    "isCoastal": true
+                },
+                {
+                    "id": "27",
+                    "isCoastal": true
+                },
+                {
+                    "id": "9",
+                    "isCoastal": true
+                },
+                {
+                    "id": "8",
+                    "isCoastal": true
+                },
+                {
+                    "id": "1",
+                    "isCoastal": true
+                },
+                {
+                    "id": "2",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Cerran",
+            "id": "27",
+            "region": "0",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "0",
+                    "isCoastal": true
+                },
+                {
+                    "id": "24",
+                    "isCoastal": true
+                },
+                {
+                    "id": "9",
+                    "isCoastal": true
+                },
+                {
+                    "id": "26",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Avalach",
+            "id": "28",
+            "region": "3",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "29",
+                    "isCoastal": true
+                },
+                {
+                    "id": "33",
+                    "isCoastal": false
+                },
+                {
+                    "id": "3",
+                    "isCoastal": true
+                },
+                {
+                    "id": "34",
+                    "isCoastal": false
+                },
+                {
+                    "id": "30",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Myrddin",
+            "id": "29",
+            "region": "3",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "2",
+                    "isCoastal": true
+                },
+                {
+                    "id": "8",
+                    "isCoastal": true
+                },
+                {
+                    "id": "7",
+                    "isCoastal": true
+                },
+                {
+                    "id": "33",
+                    "isCoastal": true
+                },
+                {
+                    "id": "3",
+                    "isCoastal": true
+                },
+                {
+                    "id": "28",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Pictland",
+            "id": "30",
+            "region": "3",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "28",
+                    "isCoastal": true
+                },
+                {
+                    "id": "34",
+                    "isCoastal": false
+                },
+                {
+                    "id": "3",
+                    "isCoastal": true
+                },
+                {
+                    "id": "6",
+                    "isCoastal": true
+                },
+                {
+                    "id": "31",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Legionis",
+            "id": "31",
+            "region": "3",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "34",
+                    "isCoastal": false
+                },
+                {
+                    "id": "40",
+                    "isCoastal": false
+                },
+                {
+                    "id": "45",
+                    "isCoastal": false
+                },
+                {
+                    "id": "46",
+                    "isCoastal": false
+                },
+                {
+                    "id": "30",
+                    "isCoastal": true
+                },
+                {
+                    "id": "39",
+                    "isCoastal": true
+                },
+                {
+                    "id": "6",
+                    "isCoastal": true
+                },
+                {
+                    "id": "5",
+                    "isCoastal": true
+                },
+                {
+                    "id": "4",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Kirtan",
+            "id": "32",
+            "region": "4",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "5",
+                    "isCoastal": true
+                },
+                {
+                    "id": "39",
+                    "isCoastal": true
+                },
+                {
+                    "id": "37",
+                    "isCoastal": false
+                },
+                {
+                    "id": "4",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Celydon",
+            "id": "33",
+            "region": "3",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "29",
+                    "isCoastal": true
+                },
+                {
+                    "id": "7",
+                    "isCoastal": true
+                },
+                {
+                    "id": "28",
+                    "isCoastal": false
+                },
+                {
+                    "id": "34",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Tintag",
+            "id": "34",
+            "region": "3",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "33",
+                    "isCoastal": true
+                },
+                {
+                    "id": "7",
+                    "isCoastal": true
+                },
+                {
+                    "id": "28",
+                    "isCoastal": false
+                },
+                {
+                    "id": "40",
+                    "isCoastal": true
+                },
+                {
+                    "id": "30",
+                    "isCoastal": false
+                },
+                {
+                    "id": "31",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Orray",
+            "id": "35",
+            "region": "0",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "10",
+                    "isCoastal": true
+                },
+                {
+                    "id": "42",
+                    "isCoastal": true
+                },
+                {
+                    "id": "9",
+                    "isCoastal": true
+                },
+                {
+                    "id": "36",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Luret",
+            "id": "36",
+            "region": "0",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "35",
+                    "isCoastal": true
+                },
+                {
+                    "id": "42",
+                    "isCoastal": false
+                },
+                {
+                    "id": "9",
+                    "isCoastal": true
+                },
+                {
+                    "id": "49",
+                    "isCoastal": false
+                },
+                {
+                    "id": "50",
+                    "isCoastal": false
+                },
+                {
+                    "id": "8",
+                    "isCoastal": true
+                },
+                {
+                    "id": "41",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Hadarac",
+            "id": "37",
+            "region": "4",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "32",
+                    "isCoastal": false
+                },
+                {
+                    "id": "39",
+                    "isCoastal": false
+                },
+                {
+                    "id": "48",
+                    "isCoastal": true
+                },
+                {
+                    "id": "21",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Argos",
+            "id": "38",
+            "region": "2",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "8",
+                    "isCoastal": true
+                },
+                {
+                    "id": "44",
+                    "isCoastal": true
+                },
+                {
+                    "id": "7",
+                    "isCoastal": true
+                },
+                {
+                    "id": "47",
+                    "isCoastal": false
+                },
+                {
+                    "id": "40",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Aberon",
+            "id": "39",
+            "region": "4",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "31",
+                    "isCoastal": true
+                },
+                {
+                    "id": "5",
+                    "isCoastal": true
+                },
+                {
+                    "id": "46",
+                    "isCoastal": false
+                },
+                {
+                    "id": "51",
+                    "isCoastal": false
+                },
+                {
+                    "id": "48",
+                    "isCoastal": false
+                },
+                {
+                    "id": "32",
+                    "isCoastal": true
+                },
+                {
+                    "id": "37",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Pyrgos",
+            "id": "40",
+            "region": "2",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "7",
+                    "isCoastal": true
+                },
+                {
+                    "id": "38",
+                    "isCoastal": true
+                },
+                {
+                    "id": "47",
+                    "isCoastal": false
+                },
+                {
+                    "id": "45",
+                    "isCoastal": false
+                },
+                {
+                    "id": "34",
+                    "isCoastal": true
+                },
+                {
+                    "id": "31",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Eldil",
+            "id": "41",
+            "region": "1",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "36",
+                    "isCoastal": true
+                },
+                {
+                    "id": "50",
+                    "isCoastal": false
+                },
+                {
+                    "id": "8",
+                    "isCoastal": true
+                },
+                {
+                    "id": "16",
+                    "isCoastal": true
+                },
+                {
+                    "id": "54",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Bithet",
+            "id": "42",
+            "region": "0",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "10",
+                    "isCoastal": false
+                },
+                {
+                    "id": "35",
+                    "isCoastal": false
+                },
+                {
+                    "id": "12",
+                    "isCoastal": false
+                },
+                {
+                    "id": "36",
+                    "isCoastal": true
+                },
+                {
+                    "id": "49",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Blue Isle",
+            "id": "43",
+            "region": "?",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "10",
+                    "isCoastal": true
+                },
+                {
+                    "id": "11",
+                    "isCoastal": true
+                },
+                {
+                    "id": "12",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Colosse",
+            "id": "44",
+            "region": "2",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "8",
+                    "isCoastal": true
+                },
+                {
+                    "id": "16",
+                    "isCoastal": true
+                },
+                {
+                    "id": "38",
+                    "isCoastal": true
+                },
+                {
+                    "id": "52",
+                    "isCoastal": true
+                },
+                {
+                    "id": "47",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Neapolis",
+            "id": "45",
+            "region": "2",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "47",
+                    "isCoastal": false
+                },
+                {
+                    "id": "40",
+                    "isCoastal": false
+                },
+                {
+                    "id": "52",
+                    "isCoastal": true
+                },
+                {
+                    "id": "23",
+                    "isCoastal": true
+                },
+                {
+                    "id": "31",
+                    "isCoastal": false
+                },
+                {
+                    "id": "46",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Teirm",
+            "id": "46",
+            "region": "4",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "45",
+                    "isCoastal": true
+                },
+                {
+                    "id": "23",
+                    "isCoastal": true
+                },
+                {
+                    "id": "31",
+                    "isCoastal": false
+                },
+                {
+                    "id": "51",
+                    "isCoastal": true
+                },
+                {
+                    "id": "39",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Ithica",
+            "id": "47",
+            "region": "2",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "44",
+                    "isCoastal": false
+                },
+                {
+                    "id": "38",
+                    "isCoastal": false
+                },
+                {
+                    "id": "52",
+                    "isCoastal": false
+                },
+                {
+                    "id": "40",
+                    "isCoastal": false
+                },
+                {
+                    "id": "45",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Therin",
+            "id": "48",
+            "region": "4",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "39",
+                    "isCoastal": false
+                },
+                {
+                    "id": "51",
+                    "isCoastal": true
+                },
+                {
+                    "id": "21",
+                    "isCoastal": true
+                },
+                {
+                    "id": "37",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Arbul",
+            "id": "49",
+            "region": "1",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "42",
+                    "isCoastal": true
+                },
+                {
+                    "id": "12",
+                    "isCoastal": true
+                },
+                {
+                    "id": "53",
+                    "isCoastal": true
+                },
+                {
+                    "id": "36",
+                    "isCoastal": false
+                },
+                {
+                    "id": "50",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Hnakra",
+            "id": "50",
+            "region": "1",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "36",
+                    "isCoastal": false
+                },
+                {
+                    "id": "49",
+                    "isCoastal": false
+                },
+                {
+                    "id": "41",
+                    "isCoastal": false
+                },
+                {
+                    "id": "53",
+                    "isCoastal": false
+                },
+                {
+                    "id": "54",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Saphira",
+            "id": "51",
+            "region": "4",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "46",
+                    "isCoastal": true
+                },
+                {
+                    "id": "23",
+                    "isCoastal": true
+                },
+                {
+                    "id": "22",
+                    "isCoastal": true
+                },
+                {
+                    "id": "39",
+                    "isCoastal": false
+                },
+                {
+                    "id": "48",
+                    "isCoastal": true
+                },
+                {
+                    "id": "21",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Edessa",
+            "id": "52",
+            "region": "2",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "16",
+                    "isCoastal": true
+                },
+                {
+                    "id": "44",
+                    "isCoastal": true
+                },
+                {
+                    "id": "17",
+                    "isCoastal": true
+                },
+                {
+                    "id": "47",
+                    "isCoastal": false
+                },
+                {
+                    "id": "23",
+                    "isCoastal": true
+                },
+                {
+                    "id": "45",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Hnau",
+            "id": "53",
+            "region": "1",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "12",
+                    "isCoastal": true
+                },
+                {
+                    "id": "49",
+                    "isCoastal": true
+                },
+                {
+                    "id": "13",
+                    "isCoastal": true
+                },
+                {
+                    "id": "50",
+                    "isCoastal": false
+                },
+                {
+                    "id": "56",
+                    "isCoastal": false
+                },
+                {
+                    "id": "54",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Hru",
+            "id": "54",
+            "region": "1",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "53",
+                    "isCoastal": false
+                },
+                {
+                    "id": "56",
+                    "isCoastal": false
+                },
+                {
+                    "id": "50",
+                    "isCoastal": false
+                },
+                {
+                    "id": "41",
+                    "isCoastal": true
+                },
+                {
+                    "id": "17",
+                    "isCoastal": true
+                },
+                {
+                    "id": "16",
+                    "isCoastal": true
+                },
+                {
+                    "id": "58",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Galleoch",
+            "id": "55",
+            "region": "?",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "23",
+                    "isCoastal": true
+                },
+                {
+                    "id": "17",
+                    "isCoastal": true
+                },
+                {
+                    "id": "19",
+                    "isCoastal": true
+                },
+                {
+                    "id": "22",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Harandra",
+            "id": "56",
+            "region": "1",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "13",
+                    "isCoastal": true
+                },
+                {
+                    "id": "57",
+                    "isCoastal": true
+                },
+                {
+                    "id": "62",
+                    "isCoastal": false
+                },
+                {
+                    "id": "53",
+                    "isCoastal": true
+                },
+                {
+                    "id": "54",
+                    "isCoastal": false
+                },
+                {
+                    "id": "58",
+                    "isCoastal": false
+                },
+                {
+                    "id": "17",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Avalon",
+            "id": "57",
+            "region": "5",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "11",
+                    "isCoastal": true
+                },
+                {
+                    "id": "60",
+                    "isCoastal": false
+                },
+                {
+                    "id": "12",
+                    "isCoastal": true
+                },
+                {
+                    "id": "13",
+                    "isCoastal": true
+                },
+                {
+                    "id": "62",
+                    "isCoastal": true
+                },
+                {
+                    "id": "56",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Tierga",
+            "id": "58",
+            "region": "5",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "56",
+                    "isCoastal": false
+                },
+                {
+                    "id": "62",
+                    "isCoastal": false
+                },
+                {
+                    "id": "65",
+                    "isCoastal": true
+                },
+                {
+                    "id": "54",
+                    "isCoastal": true
+                },
+                {
+                    "id": "18",
+                    "isCoastal": true
+                },
+                {
+                    "id": "17",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Black Island",
+            "id": "59",
+            "region": "?",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "19",
+                    "isCoastal": true
+                },
+                {
+                    "id": "20",
+                    "isCoastal": true
+                },
+                {
+                    "id": "22",
+                    "isCoastal": true
+                },
+                {
+                    "id": "21",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Asgard",
+            "id": "60",
+            "region": "5",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "11",
+                    "isCoastal": true
+                },
+                {
+                    "id": "57",
+                    "isCoastal": true
+                },
+                {
+                    "id": "14",
+                    "isCoastal": true
+                },
+                {
+                    "id": "15",
+                    "isCoastal": true
+                },
+                {
+                    "id": "64",
+                    "isCoastal": true
+                },
+                {
+                    "id": "62",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Luthadel",
+            "id": "61",
+            "region": "6",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "18",
+                    "isCoastal": true
+                },
+                {
+                    "id": "66",
+                    "isCoastal": true
+                },
+                {
+                    "id": "17",
+                    "isCoastal": true
+                },
+                {
+                    "id": "68",
+                    "isCoastal": false
+                },
+                {
+                    "id": "69",
+                    "isCoastal": false
+                },
+                {
+                    "id": "19",
+                    "isCoastal": true
+                },
+                {
+                    "id": "63",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Nysa",
+            "id": "62",
+            "region": "5",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "57",
+                    "isCoastal": false
+                },
+                {
+                    "id": "60",
+                    "isCoastal": false
+                },
+                {
+                    "id": "64",
+                    "isCoastal": false
+                },
+                {
+                    "id": "67",
+                    "isCoastal": false
+                },
+                {
+                    "id": "56",
+                    "isCoastal": false
+                },
+                {
+                    "id": "58",
+                    "isCoastal": false
+                },
+                {
+                    "id": "65",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Hathsin",
+            "id": "63",
+            "region": "6",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "61",
+                    "isCoastal": true
+                },
+                {
+                    "id": "19",
+                    "isCoastal": true
+                },
+                {
+                    "id": "69",
+                    "isCoastal": true
+                },
+                {
+                    "id": "20",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Atlantis",
+            "id": "64",
+            "region": "5",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "14",
+                    "isCoastal": true
+                },
+                {
+                    "id": "15",
+                    "isCoastal": true
+                },
+                {
+                    "id": "60",
+                    "isCoastal": true
+                },
+                {
+                    "id": "62",
+                    "isCoastal": false
+                },
+                {
+                    "id": "67",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Urteau",
+            "id": "65",
+            "region": "6",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "62",
+                    "isCoastal": false
+                },
+                {
+                    "id": "67",
+                    "isCoastal": false
+                },
+                {
+                    "id": "58",
+                    "isCoastal": true
+                },
+                {
+                    "id": "18",
+                    "isCoastal": true
+                },
+                {
+                    "id": "68",
+                    "isCoastal": false
+                },
+                {
+                    "id": "66",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Morac",
+            "id": "66",
+            "region": "6",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "18",
+                    "isCoastal": true
+                },
+                {
+                    "id": "65",
+                    "isCoastal": true
+                },
+                {
+                    "id": "68",
+                    "isCoastal": false
+                },
+                {
+                    "id": "61",
+                    "isCoastal": true
+                }
+            ]
+        },
+        {
+            "name": "Patiti",
+            "id": "67",
+            "region": "5",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "64",
+                    "isCoastal": false
+                },
+                {
+                    "id": "62",
+                    "isCoastal": false
+                },
+                {
+                    "id": "65",
+                    "isCoastal": false
+                },
+                {
+                    "id": "68",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Ascension",
+            "id": "68",
+            "region": "6",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "65",
+                    "isCoastal": false
+                },
+                {
+                    "id": "67",
+                    "isCoastal": false
+                },
+                {
+                    "id": "66",
+                    "isCoastal": false
+                },
+                {
+                    "id": "61",
+                    "isCoastal": false
+                },
+                {
+                    "id": "69",
+                    "isCoastal": false
+                }
+            ]
+        },
+        {
+            "name": "Tyrian",
+            "id": "69",
+            "region": "6",
+            "isLand": true,
+            "connections": [
+                {
+                    "id": "61",
+                    "isCoastal": false
+                },
+                {
+                    "id": "68",
+                    "isCoastal": false
+                },
+                {
+                    "id": "63",
+                    "isCoastal": false
+                },
+                {
+                    "id": "20",
+                    "isCoastal": false
+                }
+            ]
+        }
+    ]
+}

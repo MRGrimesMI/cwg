@@ -1,0 +1,108 @@
+{
+    "years": {
+        "min": 500,
+        "max": 1400
+    },
+    "population": {
+        "consumption": [
+            {
+                "name": "Food",
+                "amount": 2
+            },
+            {
+                "name": "Wood",
+                "amount": 1
+            }
+        ],
+        "size": {
+            "min": 3000,
+            "max": 10000
+        }
+    },
+    "goods": [
+        {
+            "name": "Food",
+            "units": "Bushels",
+            "facility": {
+                "name": "Farm",
+                "plural": "Farms",
+                "operatingConsumption": [
+                    {
+                        "name": "Wood",
+                        "amount": 100
+                    }
+                ],
+                "startupConsumption": [
+                ],
+                "removalConsumption": [
+                ],
+                "production": [
+                    {
+                        "name": "Food",
+                        "amount": 100
+                    }
+                ],
+                "resourceConsumption": [
+                    {
+                        "name": "Farmland",
+                        "amount": 10
+                    }
+                ]
+            },
+            "resource": {
+                "name": "Farmland",
+                "units": "acres",
+                "requires": "Land",
+                "consumable": false,
+                "districtAmount": {
+                    "min": 400,
+                    "max": 800
+                }
+            },
+            "initialAmount": {
+                "min": 400,
+                "max": 800
+            }
+        },
+        {
+            "name": "Wood",
+            "units": "cord",
+            "facility": {
+                "name": "Mill",
+                "plural": "Mills",
+                "operatingConsumption": [
+                ],
+                "startupConsumption": [
+                ],
+                "removalConsumption": [
+                ],
+                "production": [
+                    {
+                        "name": "Wood",
+                        "amount": 500
+                    }
+                ],
+                "resourceConsumption": [
+                    {
+                        "name": "Forest",
+                        "amount": 10
+                    }
+                ]
+            },
+            "resource": {
+                "name": "Forest",
+                "units": "acres",
+                "requires": "Land",
+                "consumable": true,
+                "districtAmount": {
+                    "min": 400,
+                    "max": 800
+                }
+            },
+            "initialAmount": {
+                "min": 400,
+                "max": 800
+            }
+        }
+    ]
+}

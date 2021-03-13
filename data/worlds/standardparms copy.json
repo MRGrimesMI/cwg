@@ -1,0 +1,326 @@
+{
+    "years": {
+        "min": 500,
+        "max": 1400
+    },
+    "population": {
+        "consumptionCost": [
+            {
+                "name": "Food",
+                "amount": 2
+            },
+            {
+                "name": "Wood",
+                "amount": 1
+            }
+        ],
+        "size": {
+            "min": 3000,
+            "max": 10000
+        }
+    },
+    "goods": [
+        {
+            "name": "Food",
+            "units": "Bushels",
+            "facility": {
+                "name": "Farm",
+                "plural": "Farms",
+                "operatingCost": [
+                    {
+                        "name": "Food",
+                        "amount": 200
+                    },
+                    {
+                        "name": "Wood",
+                        "amount": 100
+                    }
+                ],
+                "startupCost": [
+                    {
+                        "name": "Food",
+                        "amount": 400
+                    },
+                    {
+                        "name": "Wood",
+                        "amount": 200
+                    }
+                ],
+                "production": 500,
+                "consumption": 10
+            },
+            "resource": {
+                "name": "Farmland",
+                "units": "acres",
+                "requires": "Land",
+                "consumable": false,
+                "areaAmount": {
+                    "min": 400,
+                    "max": 800
+                }
+            },
+            "initialAmount": {
+                "min": 400,
+                "max": 800
+            }
+        },
+        {
+            "name": "Wood",
+            "units": "cord",
+            "facility": {
+                "name": "Mill",
+                "plural": "Mills",
+                "operatingCost": [
+                    {
+                        "name": "Food",
+                        "amount": 200
+                    }
+                ],
+                "startupCost": [
+                    {
+                        "name": "Food",
+                        "amount": 400
+                    },
+                    {
+                        "name": "Wood",
+                        "amount": 200
+                    }
+                ],
+                "production": 500,
+                "consumption": 5
+            },
+            "resource": {
+                "name": "Forest",
+                "units": "acres",
+                "requires": "Land",
+                "consumable":true,
+                "areaAmount": {
+                    "min": 400,
+                    "max": 800
+                }
+            },
+            "initialAmount": {
+                "min": 400,
+                "max": 800
+            }
+        }
+    ],
+    "econParms": [
+        {
+            "name": "Food",
+            "group": "commodity",
+            "units": "lbs",
+            "requires": "Farmland",
+            "min": 400,
+            "max": 800
+        },
+        {
+            "name": "Honors",
+            "group": "commodity",
+            "min": 400,
+            "max": 800
+        },
+        {
+            "name": "Wood",
+            "group": "commodity",
+            "units": "cord",
+            "requires": "Forest",
+            "min": 400,
+            "max": 800
+        },
+        {
+            "name": "Bricks",
+            "group": "commodity",
+            "requires": "Clay",
+            "min": 400,
+            "max": 800
+        },
+        {
+            "name": "Farmland",
+            "group": "resource",
+            "units": "acres",
+            "requires": "Land",
+            "min": 50,
+            "max": 100,
+            "consumable": false
+        },
+        {
+            "name": "Forest",
+            "group": "resource",
+            "units": "acres",
+            "requires": "Land",
+            "min": 50,
+            "max": 100,
+            "consumable": true,
+            "restorable": true
+        },
+        {
+            "name": "Clay",
+            "group": "resource",
+            "units": "acres",
+            "requires": "Land",
+            "min": 50,
+            "max": 100,
+            "consumable": true,
+            "restorable": true
+        },
+        {
+            "name": "Fish",
+            "group": "resource",
+            "units": "lbs",
+            "requires": "Sea",
+            "min": 50,
+            "max": 100,
+            "consumable": true,
+            "restorable": true
+        }
+    ],
+    "itemGroups": [
+        {
+            "name": "Facility",
+            "plural": "Facilities",
+            "creationTag": "Build"
+        },
+        {
+            "name": "Community",
+            "plural": "Communities",
+            "creationTag": "Build"
+        }
+    ],
+    "FoodWorking": 1,
+    "FoodNonWorking": 0.5,
+    "itemParms": [
+        {
+            "name": "Farm",
+            "label": "Farm",
+            "group": "Facility",
+            "operatingCost": [
+                {
+                    "name": "Food",
+                    "amount": 200
+                },
+                {
+                    "name": "Wood",
+                    "amount": 100
+                }
+            ],
+            "startupCost": [
+                {
+                    "name": "Food",
+                    "amount": 400
+                },
+                {
+                    "name": "Wood",
+                    "amount": 200
+                }
+            ],
+            "production": {
+                "name": "Food",
+                "amount": 500
+            },
+            "IsMobile": false,
+            "allowedArea": "Land",
+            "ReportScope": "Self",
+            "NewStaffTag": "New Workers",
+            "StaffTag": "Total Workers",
+            "OutputTag": "Production",
+            "Output": "Food",
+            "NewStaffMax": 50,
+            "StaffMax": 500,
+            "OutputMax": 20000,
+            "ResourceMax": 50,
+            "Resource": "Farmland",
+            "Resourceconsumable": false,
+            "CommodityUsedMax": [
+                {
+                    "name": "Wood",
+                    "Amount": 2000
+                },
+                {
+                    "name": "Iron",
+                    "Amount": 500
+                },
+                {
+                    "name": "Brick",
+                    "Amount": "2000"
+                }
+            ]
+        },
+        {
+            "name": "Kiln",
+            "label": "Kiln",
+            "group": "Facility",
+            "operatingCost": [
+                {
+                    "name": "Food",
+                    "amount": 200
+                },
+                {
+                    "name": "Wood",
+                    "amount": 100
+                }
+            ],
+            "IsMobile": false,
+            "allowedArea": "Land",
+            "ReportScope": "Self",
+            "NewStaffTag": "New Workers",
+            "StaffTag": "Total Workers",
+            "OutputTag": "Production",
+            "Output": "Brick",
+            "NewStaffMax": 50,
+            "StaffMax": 500,
+            "OutputMax": 2000,
+            "ResourceMax": 50,
+            "Resource": "Clay",
+            "Resourceconsumable": true,
+            "CommodityUsedMax": [
+                {
+                    "name": "Wood",
+                    "Amount": 4000
+                },
+                {
+                    "name": "Brick",
+                    "Amount": 2000
+                }
+            ]
+        },
+        {
+            "name": "Village",
+            "label": "Village",
+            "group": "Community",
+            "operatingCost": [
+                {
+                    "name": "Food",
+                    "amount": 200
+                },
+                {
+                    "name": "Wood",
+                    "amount": 100
+                }
+            ],
+            "IsMobile": false,
+            "allowedArea": "Land",
+            "ReportScope": "Self",
+            "NewStaffTag": "New Workers",
+            "StaffTag": "Total Workers",
+            "OutputTag": "Production",
+            "Output": "Brick",
+            "NewStaffMax": 50,
+            "StaffMax": 500,
+            "OutputMax": 2000,
+            "ResourceMax": 50,
+            "Resource": "Clay",
+            "Resourceconsumable": true,
+            "CommodityUsedMax": [
+                {
+                    "name": "Wood",
+                    "Amount": 4000
+                },
+                {
+                    "name": "Brick",
+                    "Amount": 2000
+                }
+            ]
+        }
+    ]
+}
